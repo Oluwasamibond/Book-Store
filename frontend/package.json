@@ -15,6 +15,7 @@
     "react-dom": "^19.1.0",
     "react-hot-toast": "^2.5.2",
     "react-router": "^7.7.1",
+    "vite": "^7.1.1",
     "zustand": "^5.0.7"
   },
   "devDependencies": {
@@ -27,7 +28,6 @@
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^15.14.0",
     "postcss": "^8.5.0",
-    "tailwindcss": "^3.4.17",
-    "vite": "^7.0.4"
+    "tailwindcss": "^3.4.17"
   }
 }

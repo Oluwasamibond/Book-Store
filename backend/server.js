@@ -9,6 +9,7 @@ import cookieParser from "cookie-parser";
 import Book from "./models/book.model.js";
 import { v2 as cloudinary } from "cloudinary";
 import path from "path";
+import job from "./config/cron.js";
 
 dotenv.config();
 
@@ -29,6 +30,7 @@ const __dirname = path.resolve();
 app.use(cors({ origin: "https://book-store-kgpl.onrender.com", credentials: true }));
 app.use(express.json({ limit: "20mb" }));
 app.use(cookieParser());
+job.start()
 
 // ================== Authentication ===============
 

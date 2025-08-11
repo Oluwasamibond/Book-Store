@@ -27,7 +27,7 @@ const __dirname = path.resolve();
 
 // Middlewares
 
-app.use(cors({ origin: "https://book-store-kgpl.onrender.com", credentials: true }));
+app.use(cors({ origin: "https://book-store-uo69.onrender.com", credentials: true }));
 app.use(express.json({ limit: "20mb" }));
 app.use(cookieParser());
 job.start()
